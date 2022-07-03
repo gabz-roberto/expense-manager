@@ -8,6 +8,7 @@ import { items } from "./data/items";
 
 import { getCurrentMonth, filterListByMonth } from "./helpers/dateFilter";
 import { Table } from "./components/Tables/Table";
+import { Info } from "./components/Info/Info";
 
 function App() {
   const [list, setList] = useState(items);
@@ -24,7 +25,9 @@ function App() {
         <C.HeaderTitle>Sistema Financeiro</C.HeaderTitle>
       </C.Header>
       <C.Body>
-        <Table list={filteredList}/>
+        <Info currentMonth={currentMonth} />
+
+        <Table list={filteredList} />
       </C.Body>
     </C.Containder>
   );

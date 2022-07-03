@@ -17,11 +17,9 @@ export const HeaderTitle = styled.h1`
 `;
 
 export const Body = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 980px;
   background-color: #fff;
   margin: auto;
   margin-bottom: 50px;
+  border-radius: 20px;
 `;
