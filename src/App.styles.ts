@@ -5,7 +5,7 @@ export const Containder = styled.div``;
 export const Header = styled.header`
   height: 150px;
   width: 100%;
-  background: linear-gradient(to bottom, #000b3d, #00198a);
+  background: linear-gradient(to bottom, #570300, #8A0500);
   text-align: center;
 `;
 
