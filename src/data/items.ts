@@ -25,4 +25,10 @@ export const items: Item[] = [
     title: "Supermercado",
     value: 90.0,
   },
+  {
+    date: new Date(2022, 6, 27),
+    category: "salary",
+    title: "Salário",
+    value: 4300.00,
+  },
 ];
